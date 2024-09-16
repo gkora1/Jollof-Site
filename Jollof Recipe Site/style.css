@@ -12,10 +12,17 @@ img {
     margin-right: auto;
 }
 
+#cook-time {
+    text-align: center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Time {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     color: gray;
+    border: 2px dotted gray;
 }
 
 .Ingredients-style {
@@ -24,6 +31,17 @@ img {
 
 .Ingredients {
     text-align: center;
+    border: 2px solid red;
     font-size: 20px;
     list-style: none;
+}
+
+.instructions {
+    text-align: center;
+}
+
+.instructions-desc {
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid red;
 }
