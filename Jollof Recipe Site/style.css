@@ -34,14 +34,20 @@ img {
     border: 2px solid red;
     font-size: 20px;
     list-style: none;
+    border-radius: 10px;
 }
 
 .instructions {
     text-align: center;
 }
 
+.instructions-desc li{
+    list-style: none;
+}
+
 .instructions-desc {
     text-align: center;
     text-decoration: none;
     border: 2px solid red;
+    border-radius: 10px;
 }
